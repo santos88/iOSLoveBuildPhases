@@ -54,6 +54,11 @@
 		1BFC728720A12C57001A9373 /* iOSLoveBuildPhases */ = {
 			isa = PBXGroup;
 			children = (
+				1BFC729D20A130EF001A9373 /* RxSwift */,
+				1BFC729C20A130E5001A9373 /* MVVM */,
+				1BFC729B20A130DE001A9373 /* VIPER */,
+				1BFC729A20A130D2001A9373 /* MVC */,
+				1BFC729E20A1311B001A9373 /* Chachara */,
 				1BFC728820A12C57001A9373 /* AppDelegate.swift */,
 				1BFC728A20A12C57001A9373 /* ViewController.swift */,
 				1BFC728C20A12C57001A9373 /* Main.storyboard */,
@@ -62,6 +67,41 @@
 				1BFC729420A12C57001A9373 /* Info.plist */,
 			);
 			path = iOSLoveBuildPhases;
+			sourceTree = "<group>";
+		};
+		1BFC729A20A130D2001A9373 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		1BFC729B20A130DE001A9373 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		1BFC729C20A130E5001A9373 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		1BFC729D20A130EF001A9373 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		1BFC729E20A1311B001A9373 /* Chachara */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chachara;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +114,7 @@
 				1BFC728120A12C57001A9373 /* Sources */,
 				1BFC728220A12C57001A9373 /* Frameworks */,
 				1BFC728320A12C57001A9373 /* Resources */,
+				1BFC729F20A135F7001A9373 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -130,6 +171,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BFC729F20A135F7001A9373 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir wohooo\ncd wohooo\ntouch MyDirtyLittleSecret.text";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1BFC728120A12C57001A9373 /* Sources */ = {
