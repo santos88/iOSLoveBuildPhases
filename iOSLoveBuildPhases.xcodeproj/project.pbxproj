@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1BA2576620A3EB5A000CB846 /* SyncController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2576520A3EB5A000CB846 /* SyncController.swift */; };
+		1BA2576D20A3FDFD000CB846 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC728A20A12C57001A9373 /* ViewController.swift */; };
+		1BA2576E20A3FDFD000CB846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC728820A12C57001A9373 /* AppDelegate.swift */; };
+		1BA2577120A3FDFD000CB846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BFC729120A12C57001A9373 /* LaunchScreen.storyboard */; };
+		1BA2577220A3FDFD000CB846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BFC728F20A12C57001A9373 /* Assets.xcassets */; };
+		1BA2577320A3FDFD000CB846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BFC728C20A12C57001A9373 /* Main.storyboard */; };
 		1BFC728920A12C57001A9373 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC728820A12C57001A9373 /* AppDelegate.swift */; };
 		1BFC728B20A12C57001A9373 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC728A20A12C57001A9373 /* ViewController.swift */; };
 		1BFC728E20A12C57001A9373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BFC728C20A12C57001A9373 /* Main.storyboard */; };
@@ -17,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		1BA2576520A3EB5A000CB846 /* SyncController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncController.swift; sourceTree = "<group>"; };
+		1BA2577820A3FDFD000CB846 /* iOSLoveBuildPhasesBranded.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLoveBuildPhasesBranded.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA2577920A3FDFD000CB846 /* iOSLoveBuildPhases copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iOSLoveBuildPhases copy-Info.plist"; path = "/Users/santos.ramon/projects/iOSLoveBuildPhases/iOSLoveBuildPhases copy-Info.plist"; sourceTree = "<absolute>"; };
 		1BFC728520A12C57001A9373 /* iOSLoveBuildPhases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLoveBuildPhases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BFC728820A12C57001A9373 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BFC728A20A12C57001A9373 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +34,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1BA2576F20A3FDFD000CB846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1BFC728220A12C57001A9373 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,6 +56,7 @@
 			children = (
 				1BFC728720A12C57001A9373 /* iOSLoveBuildPhases */,
 				1BFC728620A12C57001A9373 /* Products */,
+				1BA2577920A3FDFD000CB846 /* iOSLoveBuildPhases copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				1BFC728520A12C57001A9373 /* iOSLoveBuildPhases.app */,
+				1BA2577820A3FDFD000CB846 /* iOSLoveBuildPhasesBranded.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +126,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1BA2576A20A3FDFD000CB846 /* iOSLoveBuildPhasesBranded */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BA2577520A3FDFD000CB846 /* Build configuration list for PBXNativeTarget "iOSLoveBuildPhasesBranded" */;
+			buildPhases = (
+				1BA2576B20A3FDFD000CB846 /* Sources */,
+				1BA2576F20A3FDFD000CB846 /* Frameworks */,
+				1BA2577020A3FDFD000CB846 /* Resources */,
+				1BA2577420A3FDFD000CB846 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSLoveBuildPhasesBranded;
+			productName = iOSLoveBuildPhases;
+			productReference = 1BA2577820A3FDFD000CB846 /* iOSLoveBuildPhasesBranded.app */;
+			productType = "com.apple.product-type.application";
+		};
 		1BFC728420A12C57001A9373 /* iOSLoveBuildPhases */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BFC729720A12C57001A9373 /* Build configuration list for PBXNativeTarget "iOSLoveBuildPhases" */;
@@ -138,6 +172,9 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Santos Ramon";
 				TargetAttributes = {
+					1BA2576A20A3FDFD000CB846 = {
+						ProvisioningStyle = Automatic;
+					};
 					1BFC728420A12C57001A9373 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -158,11 +195,22 @@
 			projectRoot = "";
 			targets = (
 				1BFC728420A12C57001A9373 /* iOSLoveBuildPhases */,
+				1BA2576A20A3FDFD000CB846 /* iOSLoveBuildPhasesBranded */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1BA2577020A3FDFD000CB846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA2577120A3FDFD000CB846 /* LaunchScreen.storyboard in Resources */,
+				1BA2577220A3FDFD000CB846 /* Assets.xcassets in Resources */,
+				1BA2577320A3FDFD000CB846 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1BFC728320A12C57001A9373 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,9 +237,31 @@
 			shellPath = /bin/sh;
 			shellScript = "swift ./scripts/sayHello.swift";
 		};
+		1BA2577420A3FDFD000CB846 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "swift ./scripts/sayHello.swift";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1BA2576B20A3FDFD000CB846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA2576D20A3FDFD000CB846 /* ViewController.swift in Sources */,
+				1BA2576E20A3FDFD000CB846 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1BFC728120A12C57001A9373 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,6 +294,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1BA2577620A3FDFD000CB846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOSLoveBuildPhases copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.santosramon.iOSLoveBuildPhases;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BA2577720A3FDFD000CB846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOSLoveBuildPhases copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.santosramon.iOSLoveBuildPhases;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		1BFC729520A12C57001A9373 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -366,6 +464,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1BA2577520A3FDFD000CB846 /* Build configuration list for PBXNativeTarget "iOSLoveBuildPhasesBranded" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA2577620A3FDFD000CB846 /* Debug */,
+				1BA2577720A3FDFD000CB846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1BFC728020A12C57001A9373 /* Build configuration list for PBXProject "iOSLoveBuildPhases" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
