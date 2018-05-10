@@ -184,7 +184,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "mkdir wohooo\ncd wohooo\ntouch MyDirtyLittleSecret.text";
+			shellScript = "mkdir -p wohooo\ncd wohooo\ntouch MyDirtyLittleSecret.txt";
 		};
 /* End PBXShellScriptBuildPhase section */
 
