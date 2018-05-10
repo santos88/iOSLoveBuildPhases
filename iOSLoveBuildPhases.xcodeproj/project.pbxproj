@@ -117,7 +117,7 @@
 				1BFC728120A12C57001A9373 /* Sources */,
 				1BFC728220A12C57001A9373 /* Frameworks */,
 				1BFC728320A12C57001A9373 /* Resources */,
-				1BFC729F20A135F7001A9373 /* ShellScript */,
+				1BA2576720A3EE54000CB846 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -176,7 +176,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1BFC729F20A135F7001A9373 /* ShellScript */ = {
+		1BA2576720A3EE54000CB846 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -187,7 +187,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "echo \"Welcome to the jungle\"\necho \"warning: ViewController.swift:1 You should avoid bad practices\"\necho \"error: SyncController.swift This class has no Unit Tests\"\nreturn 0";
+			shellScript = "swift ./scripts/sayHello.swift";
 		};
 /* End PBXShellScriptBuildPhase section */
 
